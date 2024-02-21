@@ -1,0 +1,12 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+
+
+.main-header{
+  
+  @include m.tablet{ margin:1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

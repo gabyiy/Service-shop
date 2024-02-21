@@ -1,0 +1,19 @@
+{
+    "name": "gabi/taller_mecanico",
+    "description": "Project 1 PHP 8 MVC ,SQL, SAS , GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "gabyiy2000@hotmail.com"
+        }
+    ],
+    "require": {}
+}
