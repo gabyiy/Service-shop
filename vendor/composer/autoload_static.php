@@ -12,10 +12,6 @@ class ComposerStaticInit85587e4df9a1a852b2633894a60e5159
             'Model\\' => 6,
             'MVC\\' => 4,
         ),
-        'G' => 
-        array (
-            'Gabi\\TallerMecanico\\' => 20,
-        ),
         'C' => 
         array (
             'Controllers\\' => 12,
@@ -30,10 +26,6 @@ class ComposerStaticInit85587e4df9a1a852b2633894a60e5159
         'MVC\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
-        ),
-        'Gabi\\TallerMecanico\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Controllers\\' => 
         array (

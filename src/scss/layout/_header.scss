@@ -1,12 +1,32 @@
 @use "base/variables" as v;
 @use "base/mixins" as m;
 
-
-
 .main-header{
   
   @include m.tablet{ margin:1rem 5rem;
     display: flex;
     justify-content: space-between;
+  }
+
+  .login-logout-etc{
+    display: block;
+    a{
+      display: block;
+    }
+    text-align: center;
+    margin: auto;
+    @include m.tablet{
+      display: flex;
+      text-align: right;
+      margin: 0%;
+      justify-content: center;
+      a{
+        margin-right: 1rem;
+      }
+      a:last-of-type {
+        margin-right: 0;
+      }
+    
+    }
   }
 }
