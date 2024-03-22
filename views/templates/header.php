@@ -3,7 +3,7 @@
 <div class="main-header">
 
 <div class="logo">
- <h1>logo</h1>
+    <a href="/">Logo</a>
 </div>
 <div class="shoop-name">
  <h1>shop name</h1>

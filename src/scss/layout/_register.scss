@@ -1,0 +1,20 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+
+.register-form-div{
+    @include m.tablet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .field{
+            margin-bottom: 1rem;
+            display: flex;
+            label{
+                color: v.$negro;
+                flex: 0 0 10rem;
+            }
+        }
+      
+    }
+}

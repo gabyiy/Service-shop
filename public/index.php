@@ -10,6 +10,10 @@ $router = new Router();
 $router->get("/",[AuthenticationController::class,"mainPage"]);
 
 $router->get("/login",[AuthenticationController::class,"login"]);
+$router->post("/login",[AuthenticationController::class,"login"]);
+
+$router->get("/register",[AuthenticationController::class,"register"]);
+$router->post("/registrer",[AuthenticationController::class,"register"]);
 
 
 

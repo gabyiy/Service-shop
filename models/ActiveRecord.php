@@ -4,8 +4,8 @@ class ActiveRecord {
 
     // Base DE DATOS
     protected static $db;
-    protected static $tabla = '';
-    protected static $columnasDB = [];
+    protected static $table = '';
+    protected static $fieldsDB = [];
 
     // Alertas y Mensajes
     protected static $alertas = [];
